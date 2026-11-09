@@ -1,0 +1,125 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(120deg, #667eea, #764ba2);
+
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px;
+}
+
+.container {
+    background-color: white;
+    width: 100%;
+    max-width: 420px;
+
+    padding: 30px;
+    border-radius: 12px;
+
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    text-align: center;
+    color: gray;
+    margin-bottom: 25px;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 7px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+
+    border: 1px solid #ccc;
+    border-radius: 6px;
+
+    font-size: 15px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #667eea;
+}
+
+.password-box {
+    display: flex;
+    gap: 8px;
+}
+
+.password-box input {
+    flex: 1;
+}
+
+.password-box button {
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    background-color: #ddd;
+    cursor: pointer;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 13px;
+
+    margin-top: 25px;
+
+    background-color: #667eea;
+    color: white;
+
+    border: none;
+    border-radius: 6px;
+
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #5365cc;
+}
+
+
+
+.error {
+    background-color: #ffe0e0;
+    color: #d00000;
+    padding: 12px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+}
+
+
+
+.success {
+    background-color: #d4edda;
+    color: #155724;
+    padding: 12px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+}
+
+#message {
+    display: none;
+}
